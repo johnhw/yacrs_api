@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[ ]:
-
-
 class YACRS(object):
     """
     A potential Python API for YACRS.
@@ -237,6 +231,7 @@ class YACRS(object):
             For example: [10,5,0,1,0]
             If confidences are enabled, includes a confidence breakdown instead of a simple count.
             For example: [[0,4,5,1], [0,0,3,2], [0,0,0,0], [1,0,0,0], [0,0,0,0]]
+            Each sublist is a number of counts at each of the confidence categories.
         
         Works while questions are open.
         
@@ -254,10 +249,7 @@ class YACRS(object):
         pass
     
     
-
-
-# In[ ]:
-
+#####################################################################    
 
 # properties to make the API a bit nicer to work with
 
@@ -306,7 +298,6 @@ class YACRS(object):
     
 
 
-# In[ ]:
 
 
 # some basic exceptions 
